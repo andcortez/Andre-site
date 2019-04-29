@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*cabecalho*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+	height: 56px;
+}
+
+li {
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+}
+
+li a {
+	height: 38px;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+	padding-left: 16px;
+	padding-right: 16px;
+	font-family: Lucida Sans Unicode;
+	padding-top: 18px;
+}
+
+li a:hover {
+  background-color: #4682B4;
+}
+
+.cabecalho{
+	float: right;
+	margin-right: 350px; /*colocar auto depois que add icones redes sociais*/
+	margin-left: auto;
+}
+
+.logo{
+	float: left;
+  display: block;
+  height: 50px;
+  margin-right: auto;
+  margin-top: 3px;
+  margin-bottom: 3px;
+	margin-left: 10px;
+}/*fim do cabecalho*/
+/*inicio info da home*/
+#corpo-home{
+	height: 500px;
+	width: auto;
+	/*background: url(foto-home.jpg) no-repeat center center;*/
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	opacity: 0.9;
+
+}
+
+#texto-home{
+	text-align: center;
+	padding-top: 200px;
+	color: red;
+}
