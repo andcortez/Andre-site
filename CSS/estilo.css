@@ -53,15 +53,17 @@ li a:hover {
 
 .nome-logo{
 	float: left;
-	color: #628ad6;
+	color: #1492D1;
 	text-align: center;
-	font-family: Lucida Sans Unicode;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 25px;
 	height: 38px;
 	display: block;
 	text-decoration: none;
 	padding-left: 16px;
 	padding-right: 16px;
 	padding-top: 18px;
+	letter-spacing: 4px
 
 }
 
@@ -76,5 +78,13 @@ li a:hover {
 	background-size: cover;
 	opacity: 0.8;
 	margin: auto;
+}
 
+.texto-principal{
+	text-align: center;
+	padding-top: 627.5px;
+	font-size: 8em;
+	font-family: 'Bangers';
+	color: #23B786;
+	letter-spacing: 1px
 }
