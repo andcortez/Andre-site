@@ -37,7 +37,7 @@ li a:hover {
 
 .cabecalho{
 	float: right;
-	margin-right: 350px; /*colocar auto depois que add icones redes sociais*/
+	margin-right: auto; /*colocar auto depois que add icones redes sociais*/
 	margin-left: auto;
 }
 
@@ -66,20 +66,15 @@ li a:hover {
 }
 
 /*inicio info da home*/
-#corpo-home{
-	height: 500px;
+#principal{
+	height: 1255px;
 	width: auto;
-	/*background: url(foto-home.jpg) no-repeat center center;*/
+	background: url(ioT.jpg) no-repeat center center;
 	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-	opacity: 0.9;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	opacity: 0.8;
+	margin: auto;
 
-}
-
-#texto-home{
-	text-align: center;
-	padding-top: 200px;
-	color: red;
 }
