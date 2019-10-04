@@ -2,89 +2,104 @@
 	margin: 0;
 	padding: 0;
 }
-/*cabecalho*/
+#cabecalho{
+    float: left;
+    margin-left: 50px;
+}
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: sticky;
-	height: 56px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #C0C0C0;
+    height: 58px;
+    position: fixed;
+    width: 100%;
 }
 
-li {
-	margin-left: auto;
+li{
+    margin-left: auto;
 	margin-right: auto;
-	float: right;
+	float: left;
 }
 
 li a {
-	height: 38px;
-  display: block;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-	padding-left: 16px;
-	padding-right: 16px;
-	font-family: Lucida Sans Unicode;
-	padding-top: 18px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    height: 28px;
+    padding: 20px 10px 10px 10px;
+    -webkit-text-fill-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-li a:hover {
-  background-color: #4682B4;
+li a:hover{
+    background-color: white;
 }
 
-.cabecalho{
-	float: right;
-	margin-right: auto; /*colocar auto depois que add icones redes sociais*/
-	margin-left: auto;
+#logo{
+    display: block;
+    float: left;
+    height: 48px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.logo{
-	float: left;
-  display: block;
-  height: 50px;
-  margin-right: auto;
-  margin-top: 3px;
-  margin-bottom: 3px;
-	margin-left: 10px;
-}/*fim do cabecalho*/
-
-.nome-logo{
-	float: left;
-	color: #1492D1;
-	text-align: center;
-	font-family: Impact, Charcoal, sans-serif;
-	font-size: 25px;
-	height: 38px;
-	display: block;
-	text-decoration: none;
-	padding-left: 16px;
-	padding-right: 16px;
-	padding-top: 18px;
-	letter-spacing: 4px
-
+/*rodapé*/
+#contato{
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    height: 146px;
+    background-color: #C0C0C0;
+    display: block;
+    width: 100%;
 }
 
-/*inicio info da home*/
-#principal{
-	height: 1255px;
-	width: auto;
-	background: url(ioT.jpg) no-repeat center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	opacity: 0.8;
-	margin: auto;
+#TextContato{
+    /*border: 1px solid red;*/
+    display: inline-block;
+    margin-top: 30px;
+    float: left;
+    margin-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.texto-principal{
-	text-align: center;
-	padding-top: 627.5px;
-	font-size: 8em;
-	font-family: 'Bangers';
-	color: #23B786;
-	letter-spacing: 1px
+#InfoContato{
+    /*border: 1px solid red;*/
+    width: 630px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    float: left;
+    margin-top: 24px;
+}
+
+#InfoFormulario{
+    /*border: 1px solid red;*/
+    float: right;
+    width: 300px;
+    margin-top: 10px;
+}
+
+#text{
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 20px;
+}
+
+#submit{
+    float: right;
+    margin-top: 35px;
+    height: 25px;
+}
+
+#socialNetwork{
+    /*border: 1px solid red;*/
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+    float: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 8px;
 }
